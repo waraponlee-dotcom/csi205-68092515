@@ -71,9 +71,9 @@ export default function Page () {
                         <Keyboard/>
                     </InputGroupAddon>
                     <InputGroupInput id="user" type="text" placeholder="user | manager | admin" autoComplete="username"/>
-                    <InputGroupAddon align='inline-end'>
+                    {/* <InputGroupAddon align='inline-end'>
                         @company.com
-                    </InputGroupAddon>
+                    </InputGroupAddon> */}
                 </InputGroup>
                 <InputGroup className="mt-2">
                     <InputGroupAddon>
